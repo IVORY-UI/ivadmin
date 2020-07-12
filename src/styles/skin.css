@@ -1,0 +1,33 @@
+:root {
+  --tone0: #FFFFFF;
+  --tone1: #F5F7FB;
+  --tone2: #F3F4F8;
+  --tone3: #ECEFF4;
+  --tone4: #E5E9F0;
+  --tone5: #D8DEE9;
+  --tone6: #7B88A1;
+  --tone7: #4C566A;
+  --tone8: #434C5E;
+  --tone9: #3B4252;
+  --tone10: #2E3440;
+}
+
+.theme-snow {
+  background-color: var(--tone1);
+  color: var(--tone9);
+}
+.theme-night {
+  background-color: var(--tone10);
+  color: var(--tone1);
+}
+
+.theme-snow .navbar,
+.theme-snow .card {
+  background-color: var(--tone0);
+  border-bottom: 1px solid var(--tone5);
+}
+.theme-night .navbar,
+.theme-night .card {
+  background-color: var(--tone9);
+  border-bottom: 1px solid var(--tone8);
+}
